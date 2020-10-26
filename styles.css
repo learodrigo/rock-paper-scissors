@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: monospace;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+body {
+  background-color: rgb(51, 51, 51);
+  color: #FFF;
+}
+
+header {
+  background-color: #E1E1E1;
+  padding: 20px 0;
+}
+
+header > h1 {
+  color: #25272E;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.score-board {
+  border: 3px solid #FFF;
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  margin: 1.25rem auto;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: center;
+  width: 12.5rem;
+}
+
+.badge {
+  background-color: #E2584D;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.6rem;
+}
+
+#user-label {
+  left: -2rem;
+  position: absolute;
+  top: 2rem;
+}
+
+#computer-label {
+  position: absolute;
+  right: -2rem;
+  top: 2rem;
+}
+
+.result {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.choices {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.choice {
+  border: 0.3rem solid #FFF;
+  border-radius: 50%;
+  margin: 0 1rem;
+  display: inline-block;
+  padding: 1rem;
+  transition: all 0.25s ease;
+}
+
+.choice:hover {
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+.choice img {
+  width: 6rem;
+}
+
+#action-message {
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.green-glow {
+  border-color: #4DCC7D;
+  box-shadow: 0 0 10px #31B43A;
+}
+
+.red-glow {
+  border-color: #FC121B;
+  box-shadow: 0 0 10px #D01115;
+}
+
+.gray-glow {
+  border-color: #464646;
+  box-shadow: 0 0 10px #25292B;
+}
